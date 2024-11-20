@@ -21,11 +21,6 @@ export default function cadastroLanche(){
         promotion:'',
         discount: '',
     });
-    // const [name, setName] = useState('')
-    // const [description, setDescription] = useState('')
-    // const [type, setType] = useState('')
-    // const [promotion, setPromotion] = useState('')
-    // const [discount, setDiscount] = useState('')
 
     const [message, setMessage] = useState('');
     const [errors, setErrors] = useState({});
