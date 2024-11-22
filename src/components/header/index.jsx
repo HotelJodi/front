@@ -25,11 +25,11 @@ import {
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
 const products = [
-  { name: 'Cadastrar Lanches', description: 'Get a better understanding of your traffic', href: '/cad_lanche', icon: ChartPieIcon },
-  { name: 'Cadastrar Serviços', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-  { name: 'Cadastrar Passeios', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
-  { name: 'Cadastrar Clientes', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-  { name: 'Cadastrar Administrador', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
+  { name: 'Lanches', description: 'Get a better understanding of your traffic', href: '/manage_lanch', icon: ChartPieIcon },
+  { name: 'Serviços', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
+  { name: 'Passeios', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
+  { name: 'Clientes', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
+  { name: 'Administrador', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
 ]
 const callsToAction = [
   { name: 'Video apresentação', href: '#', icon: PlayCircleIcon },
