@@ -92,52 +92,9 @@ const handleRestore = (id) => {
   };
   
 //-------------------------------------------Deletar lanches ----------------------------------------
-// const deleteRecord = async (id) => {
-//     try {
-//       // Envia a requisição DELETE
-//       const response = await fetch(`http://127.0.0.1:8000/api/lanches/${id}`, {
-//         method: "DELETE",
-//         headers: {
-//           "Content-Type": "application/json",
-//         },
-//       });
-  
-//       // Verifica se a requisição foi bem-sucedida
-//       if (response.ok) {
-//         // Caso a API retorne JSON, processa o dado
-//         if (response.status !== 204) {
-//           const data = await response.json();
-//           console.log(data.message); // Exibe mensagem retornada pela API
-//         }
-  
-//         console.log("Registro deletado com sucesso!");
-//         alert("Registro deletado com sucesso!");
-//       } else {
-//         // Trata status HTTP não-200
-//         console.error(`Erro na requisição: ${response.status}`);
-//         if (response.status === 400) {
-//           const errorData = await response.json();
-//           console.error("Erro de validação:", errorData);
-//         } else {
-//           console.error("Erro desconhecido.");
-//         }
-//       }
-//     } catch (error) {
-//       // Trata erros de rede ou outros problemas
-//       console.error("Erro na requisição ou conexão:", error);
-//       alert("Erro ao se conectar com o servidor.");
-//     }
-//   };
-
-  // Chamar a função ao clicar no botão
-// const handleDelete = (id) => {
-//     deleteRecord(id);
-//   };
-
 
     return(
-      
-      
+
       <div>
      
       <div className={Style.fundoBGLista}>
@@ -176,7 +133,6 @@ const handleRestore = (id) => {
       </div>
     </div>
 
-
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Nome do lanche</Modal.Title>
@@ -189,11 +145,7 @@ const handleRestore = (id) => {
           <Button variant="primary" onClick={()=>handleRestore('12')}>
             Restaurar
           </Button>
-          {/* <Button variant="danger" className='bg-red-600' onClick={()=>handleDelete('7')}>
-            Deletar
-          </Button>  */}
-          
-          
+
         </Modal.Footer>
       </Modal>
       
