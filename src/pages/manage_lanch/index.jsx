@@ -33,7 +33,7 @@ const products = [
       {
         id: 4,
         name: 'Lanches excluídos',
-        href: '#',
+        href: '/manage_lanch/excluidos',
         imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$36',
