@@ -15,7 +15,7 @@ const products = [
     {
         id: 2,
         name: 'Lista de lanches',
-        href: '#',
+        href: '/manage_lanch/lista',
         imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg',
         imageAlt: "Front of men's Basic Tee in black.",
         price: '$36',
